@@ -1,0 +1,19 @@
+{
+    "name": "abel2/basic_framework",
+    "authors": [
+        {
+            "name": "AsaaTest",
+            "email": "abelcoc06@gmail.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/",
+            "Asaa\\" : "src/"
+		},
+		"files": [
+			"src/Helpers/helpers.php"
+		]
+	},
+    "require": {}
+}

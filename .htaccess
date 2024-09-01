@@ -1,0 +1,7 @@
+# Usar mod_rewrite para la reescritura de URLs
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Redirige todo a la carpeta public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>

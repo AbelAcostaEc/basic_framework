@@ -1,0 +1,26 @@
+# Directorios de configuración y dependencias
+/vendor/
+/node_modules/
+
+# Archivos de configuración específicos del entorno
+.env
+.env.local
+.env.*.local
+.phpunit.result.cache
+
+# Archivos y carpetas de compilación
+/build/
+public/build/
+
+# Archivos de caché y temporales
+/tmp/
+*.cache
+*.log
+
+# Configuración del IDE/editor
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-work
+
+composer.lock
